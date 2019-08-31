@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.ritwik.librarydemo.Foo;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
         /***
          * Functions are working fine
          */
+
         Foo.barFunction();
-        Foo.barbar();
+
+
 
 
     }
