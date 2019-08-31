@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        /***
+         * Functions are working fine
+         */
         Foo.barFunction();
+        Foo.barbar();
+
+
     }
 }
